@@ -9,11 +9,11 @@ varying vec2 v_Texcoord;
 varying vec3 v_Normal;
 varying vec3 v_WorldPosition;
 
-uniform vec4 color : [1.0, 1.0, 1.0, 1.0];
+uniform vec4 color : [0.0, 0.0, 0.0, 0.0];
 uniform float gridSize: 5;
 uniform float gridSize2: 1;
-uniform vec4 gridColor: [0, 0, 0, 1];
-uniform vec4 gridColor2: [0.3, 0.3, 0.3, 1];
+uniform vec4 gridColor: [1.0, 1.0, 1.0, 1.0];
+uniform vec4 gridColor2: [0.8, 0.8, 0.8, 1.0];
 
 uniform bool showGrid: true;
 

@@ -187,7 +187,7 @@ Viewer.prototype._createGround = function () {
         geometry: new PlaneGeometry(),
         renderOrder: -10
     });
-    groundMesh.material.set('color', [1, 1, 1, 1]);
+    groundMesh.material.set('color', [0, 0, 0, 1]);
     groundMesh.scale.set(40, 40, 1);
     groundMesh.rotation.rotateX(-Math.PI / 2);
     this._groundMesh = groundMesh;
